@@ -323,6 +323,24 @@
                 "On utilise O(n) (grand O de n). C'est une notation mathématiques, utilisée pour de la comparaison asymptotique",
                 "C'est n*log(n). Algo de tri fusion et par tas, par exemple"
             ]
+        },
+        {
+            "theme": "Langages compilés",
+            "category": "algo-paradigms",
+            "questions": [
+                "Donnez un exemple de langage compilé",
+                "Comment exécuter un script écrit en C par exemple ?",
+                "Pourquoi un programme compilé est-il généralement plus rapide qu'un programme interprété ?",
+                "Quel est le paradigme pris en charge par C++ qui ne l'est pas par C",
+                "Qu'est-ce qu'un pointeur en C"
+            ],
+            "answers": [
+                "C, C++, C#, Java, Rust, Swift, Fortran, Ada ...",
+                "On compile le code source pour (avec GCC par ex) créer un exécutable qui servira à avoir le résultat de notre programme",
+                "Car il est traduit en langage machine une fois, réduisant ainsi la surcharge d'analyse à chaque exécution",
+                "La programmation orientée objet ou POO",
+                "C'est une variable qui stocke l'adresse mémoire d'une autre variable."
+            ]
         }
     ]
 }
